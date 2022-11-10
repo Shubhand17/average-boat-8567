@@ -14,9 +14,9 @@ const Navbar = () => {
 
                 <Input w="38%" borderRadius={"0"} fontSize={"12px"} height={"36%"} placeholder='Search for a product or brand..' />
 
-                <HStack w="20%" border={"2px solid"} h="30px">
+                <HStack w="20%"  h="30px">
                     <HStack margin={"auto"} width={"fit-content"} justifyContent="center"  >
-                        <Image width={"10%"} borderRadius="50%" src="https://as1.ftcdn.net/v2/jpg/03/16/12/52/1000_F_316125289_3GTL3Yd9JVQz3Nw50uAEEkOpX6GvK0LE.jpg" alt="" />
+                        <Image width={"12%"} borderRadius="50%" src="https://as1.ftcdn.net/v2/jpg/03/16/12/52/1000_F_316125289_3GTL3Yd9JVQz3Nw50uAEEkOpX6GvK0LE.jpg" alt="" />
                         <Text fontSize={"12px"}>Account</Text>
                     </HStack>
                     <HStack margin={"auto"} width={"fit-content"} >
