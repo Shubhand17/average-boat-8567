@@ -1,31 +1,37 @@
 import { Box, HStack, Image, Text, VStack, Heading, Divider, Input } from '@chakra-ui/react'
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button } from '@chakra-ui/button';
 
 
 export const Footer = () => {
     return (
-
+        
         <Box height={"600px"} width={"100%"}  >
+            
+              <Divider/>
 
-            <HStack gap={"50px"} width={"70%"} align={"start"} margin={"50px 100px"} >
-                <VStack align={"start"} >
-                    <Text>Sign up to our email list and receive 20% off your next order</Text>
-                    <Button >SIGN UP</Button>
-                </VStack>
-                <VStack align={"start"}>
-                    <Text>Connect with us</Text>
-                    <Image src="https://wordpress.org/support/files/2020/11/social_icons.png" alt="" />
+            <Box width={"70%"} border="2px solid pink" margin={"auto"}  >
+                <HStack  >
+                    <VStack align={"start"}  w="50%" >
+                        <Text fontWeight={"bold"} fontSize="14px">Sign up to our email list and receive 20% off your next order</Text>
+                        <Button  color={"white"} bg="black" fontSize={"12px"} borderRadius="0" >SIGN UP</Button>
+                    </VStack>
+                    <VStack align={"start"}  border="0px solid brown" w="60%" paddingTop={"20px"} >
+                        <Text fontWeight={"bold"} fontSize="14px" marginStart={"27px"}>Connect with us</Text>
+                        <Image w="60%" src="https://wordpress.org/support/files/2020/11/social_icons.png" alt="" />
 
-                </VStack>
-            </HStack>
+                    </VStack>
+                </HStack>
+            </Box>
+
+
 
             <hr />
 
-            <HStack width={"100%"} margin={"auto"} align={"start"} justifyContent={"space-evenly"}>
+            <HStack width={"75%"} margin={"auto"} align={"start"} justifyContent={"space-evenly"} >
 
-                <VStack align={"start"}>
-                    <Text fontWeight={"bold"}>Help & Information</Text>
+                <VStack align={"start"} >
+                    <Text fontWeight={"bold"}  fontSize="12px">Help & Information</Text>
                     <HStack>
                         <Image w="5%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAB7CAMAAABwzk+5AAAAY1BMVEX///8AAAD7+/v19fUeHh7x8fG7u7tCQkLMzMyamprJyck5OTmAgIA9PT2MjIygoKBRUVFvb28vLy8jIyPDw8MQEBB0dHTV1dUWFhbo6Oji4uKurq6UlJQoKChhYWGoqKhJSUltZfo7AAADi0lEQVRogb2b63aqQAyFmeHiHcGCKFjk/Z+yVWuX4kyyRxL337N6vjKXZLKTRpFT2X5XD6fG/Y8qqhJzU5l+Cpmbf33PP0K0vXlU9QFkPDPP0v/S9muENPVRGVnVY6QxK13k4pX4q7Umcu1EGrPUQ/YepKljLWTpQxqzV0L6FlZxdc8U0qw0Vrchkcbk8sj4JRSMJZ9jyM28qpBGzlmkMWdZpB3Hdadkc2mHIGVDYLyCmKYVZGKfKRuNoN28SC4wIIf2Jrmju4eZGymkTXjYXVLXZYkjTSfEPAUwpSL9LoApdFtsANKUMkwucWp8ZxbCFNrPbQgzk2Hy2fpBVobpfdQ6JJXNhgCmVIwPuJ5ipSgebRdSyOiAIrdiyOgbRApdk6s2EPEgWuEXCHIl+fwiK8B/FcI2Uc4j5Q7sn9iH5kF2XS/i8kohFGMf1dLIjYqVQDN1rE0y4CqZF+TBVTL7qEOk5fUdHRbfXTMtM4qoPgeFi3IV8QpTsYUuol64at4tkc7UTGq3a3uVgv11ExH+1A4R9cZVW9zKzxSqxF5FGUTy2fNPxCnSsqij2M9UymYRaSqIm6h3pcSHSr6mn0RlUa07Su2o2n0hjq7e6hJMtfRCPa7Vzi7lVp+UmKQ7pbWlpG2jFI5Sqpm0UxobIOulQYdJF8BKoeFIOjdKh5euRqWs8ZHoJoTOUIal/SLwSdZ023OGH3Sm7gag7f2eH05onKYb23w3/SkTl+ATjnF06T1Nx4UIdthjxl6lQm/7WsxiHhrXivBfGXdPCmrtcT6Vzxjz/dwaKWM5Q84dBv3PmwI5wJzbuXH8J1TjLQE21bI2/cumMo0a4GJTbspNxfOvzvaGAG8d6KPtH6hAawjoziCNtL667uuxg7oXJV8QQJ20ZFYUA9ov6fk7A1jYgQKgiFcfCOWXN6SBh4kv221IBw8TH3yxKZ8g8RHJYn2mAAH1ljwUqELElxdpEUlDoWLWQn08WAnCHI87T9QOYgZOFDCCa62Q6RtGeMkeNCNCCdvOmxq4204ryCRIRe5MaD0pcJLC/Rd0+tCrd+aVm0nJbfee0W4nrO/wtm04Ryc3xprUGX/vUyf6lO0bOXX6vFPGznyPJOFR2m3AmKfphUzndIGOWH0Jellph0TDOhd2RJcls8TfuYKXf+wKb8KpiwAzLExplbviRN8p/yWTbbLtut/8rnSdzPr1OSNC6w+LsSw5uqv/8AAAAABJRU5ErkJggg==" alt="" />
                         <Text>Customer Services</Text>
@@ -57,7 +63,7 @@ export const Footer = () => {
                 </VStack>
 
                 <VStack align={"start"}>
-                    <Text fontWeight={"bold"}>About SkinStore</Text>
+                    <Text fontWeight={"bold"}  fontSize="12px">About SkinStore</Text>
                     <Text>Key Workers Discount</Text>
                     <Text>About Us</Text>
                     <Text>Affiliate Program</Text>
@@ -69,7 +75,7 @@ export const Footer = () => {
                 </VStack>
 
                 <VStack align={"start"}>
-                    <Text fontWeight={"bold"}>Legal</Text>
+                    <Text fontWeight={"bold"}  fontSize="12px">Legal</Text>
                     <Text>Cookie Information</Text>
                     <Text>Privacy Policy</Text>
                     <Text>Terms & Conditions</Text>
@@ -77,24 +83,30 @@ export const Footer = () => {
                 </VStack>
 
                 <VStack align={"start"}>
-                    <Text fontWeight={"bold"}>How To Contact Us</Text>
+                    <Text fontWeight={"bold"}  fontSize="12px">How To Contact Us</Text>
                     <Text>Message Us</Text>
                     <Text>Free Beauty Consulations</Text>
-                    
+
                 </VStack>
 
-                
+
             </HStack>
             <Divider width={"78%"} color={"black"} margin={"30px 165px "} orientation='horizontal' />
-            <HStack color={"gray"} width={"100%"} justifyContent={"space-evenly"} >
 
-                <Text>Medicine</Text>
-                <Text>Wellness</Text>
-                <Text>Lab Tests</Text>
-                <Text>Beauty</Text>
-                <Text>Copyright© 2022. All Rights Reserved.</Text>
-            </HStack>
+            <Box width={"70%"} border="2px solid pink" margin={"auto"}  >
+                <HStack  >
+                    <VStack align={"start"}  w="50%" >
+                        <Text fontSize={"32px"} fontWeight="bolder">THG</Text>
+                        <Text fontSize={"10px"} color="gray">2022 © The Hut.com Ltd.</Text>
+                    </VStack>
+                    <VStack align={"start"}  border="0px solid brown" w="80%" paddingTop={"20px"} >
+                        <Text fontWeight={"bold"} fontSize="14px" marginStart={"98px"}>Pay securely with</Text>
+                        <Image w="80%"  src="https://cdn.shopify.com/s/files/1/0562/2772/5395/files/align_together_2.jpg?v=1664534660&width=1280" alt="" />
 
+                    </VStack>
+                </HStack>
+            </Box>
+           
         </Box>
 
     )
