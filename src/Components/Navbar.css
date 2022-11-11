@@ -29,7 +29,7 @@ body {
     width: 800px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    
 }
 
@@ -247,7 +247,7 @@ body {
     grid-template: auto/repeat(13, auto);
     justify-content: space-around;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 235px;
 }
 
@@ -717,7 +717,7 @@ p {
     width: 100%;
     margin: auto;
     padding: 10px;
-    border: 2px solid #eb0e2c;
+    
     margin-top: 2%;
 }
 
