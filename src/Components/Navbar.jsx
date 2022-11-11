@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
        
         <Box width={"100%"} backgroundColor="white" position={"sticky"} top="0" zIndex={"10"} >
-            <HStack width={"80%"} border="1px solid black" margin={"auto"} height="80px" justifyContent={"space-around"} >
+            <HStack width={"80%"} margin={"auto"} height="80px" justifyContent={"space-around"} >
                 <Image width="15%"   src="https://i.ibb.co/XFyZsGS/Michelle-2.png" alt="" />
 
           
