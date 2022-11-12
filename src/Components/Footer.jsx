@@ -10,7 +10,7 @@ export const Footer = () => {
             
               <Divider/>
 
-            <Box width={"70%"} border="2px solid pink" margin={"auto"}  >
+            <Box width={"70%"}  margin={"auto"}  >
                 <HStack  >
                     <VStack align={"start"}  w="50%" >
                         <Text fontWeight={"bold"} fontSize="14px">Sign up to our email list and receive 20% off your next order</Text>
@@ -93,7 +93,7 @@ export const Footer = () => {
             </HStack>
             <Divider width={"78%"} color={"black"} margin={"30px 165px "} orientation='horizontal' />
 
-            <Box width={"70%"} border="2px solid pink" margin={"auto"}  >
+            <Box width={"70%"}  margin={"auto"}  >
                 <HStack  >
                     <VStack align={"start"}  w="50%" >
                         <Text fontSize={"32px"} fontWeight="bolder">THG</Text>

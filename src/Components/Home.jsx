@@ -69,7 +69,7 @@ export const Home = () => {
                 <SliderKatrina data={katrinaSlider} />
                 </Box>
 
-            <Box w="80%" border={"2px solid pink"} margin="auto">
+            <Box w="80%"  margin="auto">
                 <VStack >
                     <Text fontSize={"32px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"} lineHeight="1.2">Shop by Category</Text>
                     <HStack width={"78%"} border="1px solid red" justifyContent={"space-around"} >
@@ -91,23 +91,23 @@ export const Home = () => {
 
 
 
-            <Box width={"70%"} border="1px solid red" margin={"auto"}>
+            <Box width={"70%"}  margin={"auto"}>
                 <Text fontSize={"32px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"} lineHeight="1.2">Trending Offers</Text>
                 <HStack marginTop={"12px"}>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/39/17_1009_CucumberExtract_US17_1009_CucumberExtract_US-014239.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/39/17_1009_CucumberExtract_US17_1009_CucumberExtract_US-014239.jpg" alt="" />
                         <Text >Shop SkinCeuticals Skincare</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/39/0712-STDCRE-38046-SS-MH-Photography-July-22-REMAINING-BATCHING-Shot8-600x600-063639.png" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/39/0712-STDCRE-38046-SS-MH-Photography-July-22-REMAINING-BATCHING-Shot8-600x600-063639.png" alt="" />
                         <Text >25% off Elemis with code SINGLES</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button  fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/23/original-BABOR.AMPOULES-112223.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/23/original-BABOR.AMPOULES-112223.jpg" alt="" />
                         <Text >40% off BABOR Ampoules</Text>
                         <Text color={"#2e3337"} fontSize={"12px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"}>
                             Plus, receive a Free BABOR 3 Piece Power Serum Ampoule Set (worth $30) when you spend $100+ on the brand.</Text>
@@ -115,23 +115,23 @@ export const Home = () => {
                     </VStack>
                 </HStack>
             </Box>
-            <Box width={"70%"} border="1px solid red" margin={"auto"}>
+            <Box width={"70%"}  margin={"auto"}>
 
                 <HStack marginTop={"12px"}>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/10/0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_14-600x600-091010.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/10/0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_14-600x600-091010.jpg" alt="" />
                         <Text >Up to 50% off TriPollar</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/42/best_selling-064442.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/42/best_selling-064442.jpg" alt="" />
                         <Text >25% off Neocutis with code SINGLES</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/54/original-original-original-500x500-085431-083903-064454.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/54/original-original-original-500x500-085431-083903-064454.jpg" alt="" />
                         <Text >30% off Christophe Robin + Gift</Text>
                         <Text color={"#2e3337"} fontSize={"12px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"}>
                             Plus, receive a Free BABOR 3 Piece Power Serum Ampoule Set (worth $30) when you spend $100+ on the brand.</Text>
@@ -139,23 +139,23 @@ export const Home = () => {
                     </VStack>
                 </HStack>
             </Box>
-            <Box width={"70%"} border="1px solid red" margin={"auto"}>
+            <Box width={"70%"}  margin={"auto"}>
 
                 <HStack marginTop={"12px"}>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/28/original-Screenshot_2022-03-07_141739-065628.png" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/28/original-Screenshot_2022-03-07_141739-065628.png" alt="" />
                         <Text >25% off Elemis with code SINGLES</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/43/Untitled_design_%2813%29-051843.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/43/Untitled_design_%2813%29-051843.jpg" alt="" />
                         <Text > Up to 40% off ESPA</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">SHOP NOW</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/23/original-perricone.ss-013423.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/23/original-perricone.ss-013423.jpg" alt="" />
                         <Text >25% off Perricone MD with code SINGLES</Text>
                         <Text color={"#2e3337"} fontSize={"12px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"}>
                             Plus, receive a Free BABOR 3 Piece Power Serum Ampoule Set (worth $30) when you spend $100+ on the brand.</Text>
@@ -164,7 +164,7 @@ export const Home = () => {
                 </HStack>
             </Box>
 
-            < Box width={"70%"} border="1px solid red" margin={"auto"}>
+            < Box width={"70%"}  margin={"auto"}>
                 <Text fontSize={"32px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"} lineHeight="1.2">What People Are Buying Right Now</Text>
                 <HStack marginTop={"12px"}>
                     <VStack>
@@ -195,8 +195,8 @@ export const Home = () => {
                 </HStack>
             </Box>
 
-            <Box width={"70%"} border="1px solid red" margin={"auto"}>
-                <HStack marginTop={"14px"} border="1px solid green" justifyContent={"space-around"}>
+            <Box width={"70%"}  margin={"auto"}>
+                <HStack marginTop={"14px"}  justifyContent={"space-around"}>
                     <Image  width={"14%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/26/180x72_4_233548301_CA_SS_Logo_Amend_BAU_THG0030424-041301-124116-063126.png" alt="" />
                     <Image  width={"14%"}src="https://static.thcdn.com/images/small/webp/widgets/121-us/18/original-logo-1024x383-035229-063318.png" alt="" />
                     <Image width={"14%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/11/Revision_Skincare_Logo_without_Tag_Line-052511.png" alt="" />
@@ -208,23 +208,23 @@ export const Home = () => {
 
             </Box>
 
-            <Box width={"70%"} border="1px solid red" margin={"auto"}>
+            <Box width={"70%"}  margin={"auto"}>
                 <Text fontSize={"32px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"} lineHeight="1.2">Over On the Blog...</Text>
                 <HStack marginTop={"12px"}>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/06/original-SkinC_Ferulic-034413-012406.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/06/original-SkinC_Ferulic-034413-012406.jpg" alt="" />
                         <Text  fontWeight={"semibold"}>SkinCeuticals: Vitamin C Beyond the Face</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">READ MORE</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/51/original-0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_13-500x500-023351.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/51/original-0224-STDCRE-32153-SS-BME-Skinstore-March-2022-Photography-Batching-Shot_13-500x500-023351.jpg" alt="" />
                         <Text fontWeight={"semibold"} >Which TriPollar Device is Right for You?</Text>
                         <Text color={"#2e3337"} fontSize={"12px"}>Receive a SkinCeuticals Triple Lipid Restore 2:4:2 Sample when you spend $150 or more on the brand.</Text>
                         <Button fontWeight={"hairline"} color={"#2e3337"} fontSize="12px" bg="white" borderRadius={"0"} border="1px solid">READ MORE</Button>
                     </VStack>
                     <VStack>
-                        <Image style={{ border: '1px solid red', borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/16/original-NB-IMAGE-5---2022-SKINSTORE-LANDING-PAGE-025016.jpg" alt="" />
+                        <Image style={{  borderRadius: '50%' }} width={"90%"} src="https://static.thcdn.com/images/small/webp/widgets/121-us/16/original-NB-IMAGE-5---2022-SKINSTORE-LANDING-PAGE-025016.jpg" alt="" />
                         <Text fontWeight={"semibold"}>Discover Nature Bisse</Text>
                         <Text  color={"#2e3337"} fontSize={"12px"} fontFamily={"Lato-Regular,Helvetica,Arial,sans-serif"}>
                             Plus, receive a Free BABOR 3 Piece Power Serum Ampoule Set (worth $30) when you spend $100+ on the brand.</Text>
