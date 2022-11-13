@@ -8,12 +8,16 @@ import { Navbar } from './Components/Navbar';
 import { Dropdown } from 'react-bootstrap';
 
 import { Footer } from './Components/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ChakraProvider>
-    <App />
- </ChakraProvider>
+  <BrowserRouter>
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
+  </BrowserRouter>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
